@@ -1,0 +1,142 @@
+header{
+    background-color: #F5ECE8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+body{
+    background-color: rgb(236, 226, 213);}
+
+.lembrancas{
+    width: 1px;
+    margin-left: -9%;
+    }
+
+.convites{
+    width: 1px;
+    margin-left: -22%;
+}
+
+.texto{
+    text-decoration: none;
+}
+
+.texto1{
+    text-decoration: none;
+}
+
+.zap1{
+    text-decoration: none;
+   
+}
+
+img,P{
+    width: 80%;}
+
+.logo {
+    max-width: 150px;}
+
+.informacao{
+    text-align: right;
+    color: #E64E74;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    margin: 0px 400px 0px 100px ;
+    }
+
+
+.brigadeiro{
+    width:350px;
+    height: 300px;}
+.beijinho{
+    width:300px;
+    margin-left: 200px;}
+.brownie{
+    width:290px;
+    margin-left: 200px;}
+.brownierecheado{
+    width:300px;
+    margin-left: 40px;}
+.copinhos{
+    width:300px;
+    margin-left: 100px;}
+.donults{
+    width:300px;
+    margin-left: 150px;}
+.macarrom{
+    width:300px;
+    margin-left: -100px;}
+
+.centro{
+    display: flex;
+    font-size: 150%;
+width: 50%;
+margin-left: 50px;}
+.meio{
+    display: flex;
+    font-size: 100%;}
+.fim{
+    display: flex;
+    font-size: 150%;}
+
+.comeco{
+    display: flex;
+    font-size:120%;
+    margin-left: 210px;
+}
+.barriga{
+    display: flex;
+    font-size:120%;
+    margin-left: 210px;
+}
+
+.final{
+    display: flex;
+    font-size:120%;
+    margin-left: 200px;
+}
+
+footer{
+    display: flex;
+    margin-left: 1520px;
+}
+
+.zap{
+    width: 10%;
+}
+
+.botao1{
+    display: flex;
+    align-items: center;
+}
+
+.input1[type="texto"]{
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+
+.button1{
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid#ccc;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fafafa;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-around;
+
+}
+.bloco{
+    padding: 20px;
+    text-align: center;
+}

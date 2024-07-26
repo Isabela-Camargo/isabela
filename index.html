@@ -2,48 +2,85 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Alura MIDI</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-
-    <link rel="icon" type="image/png" href="images/bateria.png">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilos.css">
-
+    <title>Doces aretesanais</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <div class="logo">
+        <img src="img/Logotipo para doceria moderno ilustrado rosa e bege.png" alt="">
+        </div>
+       
+        <div class="lembrancas">
+        <a class="texto" href="index2.html"> LEMBRANCINHAS</a>
+        </div>
 
-    <h1>Sons Musicais</h1>
+        <div class="informacao">
+        <h1>DOCES ARTESANAIS</h1>
+        </div>
 
-    <section class="teclado">
-        <button class="tecla tecla_pom">Pom</button>
-        <button class="tecla tecla_clap">Clap</button>
-        <button class="tecla tecla_tim">Tim</button>
+        <div class="convites">
+        <a class="texto1" href="index3.html">CONVITES</a>
+         </div>
 
-        <button class="tecla tecla_puff">Puff</button>
-        <button class="tecla tecla_splash">Splash</button>
-        <button class="tecla tecla_toim">Toim</button>
+        <div class="botao1">
+            <input class="input" type="text" placeholder="pesquisar">
+            <button class="input" type="submit">buscar</button>
+           </div>
+       
+    </header>
+    <section class="linha">
+        <div class="bloco">
+            <img class="brigadeiro" src="img/brigadeiro.jpeg" alt="">
+            <p>BRIGADEIROS R$3,50</p>
+            <button class="bt2"  onclick="compre()" >COMPRAR</button>
 
-        <button class="tecla tecla_psh">Psh</button>
-        <button class="tecla tecla_tic">Tic</button>
-        <button class="tecla tecla_tom">Tom</button>
+        </div>
+        <div class="bloco">
+                <img  class="brigadeiro" src="img/beijinho.jpg" alt="">
+                 <p>BEIJINHOS R$3,50</p>
+                <button class="bt2"  onclick="compre()" >COMPRAR</button>
+        </div>
+        <div class="bloco">
+                <img  class="brigadeiro" src="img/brownie.jpg" alt="">
+                 <p>BROWNIE: R$3,00</p>
+                <button class="bt2"  onclick="compre()" >COMPRAR</button>
+        </div>
     </section>
 
-    <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
-    <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
-    <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
-    <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
-    <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
-    <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
-    <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
-    <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
+   <section class="linha">
+    <div class="bloco">
+        <img class="brownierecheado" src="img/brownierecheado.jpg" alt="">
+        <p>BROWNIE RECHEADOS:R$4,00</p>
+        <button class="bt4"  onclick="compre()" >COMPRAR</button>
+        </div>
 
+        <div class="bloco">
+        <img  class="copinhos" src="img/copinhos.jpeg" alt="">
+        <p> COPINHOS:R$5,00</p>
+        <button class="bt5"  onclick="compre()" >COMPRAR</button>
+        </div>
+
+        <div class="bloco">
+        <img  class="donults" src="img/donults.jpeg" alt="">
+        <p>DONULTS : R$5,50</p>
+        <button class="bt6"  onclick="compre()" >COMPRAR</button>
+        </div>
+    </section>
+
+    <section class="linha">
+     <div class="bloco">
+    <img  class="macarrom" src="img/macarrom.webp" alt="">
+    <p>MACARROM: R$3,00</p>
+    <button class="bt7"  onclick="compre()" >COMPRAR</button>
+    </div>
+</section>
     <script src="main.js"></script>
+    
+
+
 
 </body>
 </html>
